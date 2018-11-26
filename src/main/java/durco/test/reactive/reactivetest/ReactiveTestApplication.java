@@ -11,13 +11,9 @@ import java.util.stream.Stream;
 public class ReactiveTestApplication {
 
 	public static void main(String[] args) {
-		isNextDigitSame(5888);
+
 		SpringApplication.run(ReactiveTestApplication.class, args);
 	}
 
-	public static boolean isNextDigitSame(int valueToCheck) {
-		Stream.of(Integer.toString(valueToCheck).).forEach(System.out::println);
-		//char[] c = xx.toCharArray();
-		return true;
-	}
+
 }
